@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <img src="/assets/photo.jpg" alt="Kaiyue Feng" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #ddd;">
 </div>
 
-Hello! I am an aspiring researcher passionate about exploring AI4Science, Reasoning, and multimodal LLMs. I am currently a Senior Undergraduate in Computer Science at NYU Shanghai, actively seeking opportunities to pursue original research and contribute to these rapidly evolving fields.
+Hello! I am an aspiring researcher passionate about exploring AI4Science, Reasoning, and multimodal LLMs. I am currently a Senior Undergraduate in Computer Science at NYU Shanghai, actively seeking PhD positions and opportunities to pursue original research and contribute to these rapidly evolving fields.
 
 **Research Interests:**
 - **AI4Science**: Applying artificial intelligence to accelerate scientific discovery and research processes
