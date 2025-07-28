@@ -1,0 +1,8 @@
+# 选择一个 Jekyll 主题
+theme: jekyll-theme-cayman
+
+# 网站的标题，会显示在浏览器标签页上
+title: Kaiyue Feng's Homepage
+
+# 网站的描述，方便搜索引擎了解你的网站
+description: Welcome to my personal page!
