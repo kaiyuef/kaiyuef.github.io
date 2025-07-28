@@ -58,13 +58,6 @@ show_tags: true
 show_categories: true
 
 # --------------------- #
-#     Table of Contents #
-# --------------------- #
-# Enable table of contents for posts
-toc: true
-toc_sticky: true
-
-# --------------------- #
 #     Plugins          #
 # --------------------- #
 plugins:

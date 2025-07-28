@@ -6,111 +6,23 @@ bigimg: /assets/avatar.jpg
 toc: true
 ---
 
-<meta name="toc" content="true">
+## 目录
 
-<script>
-// Table of Contents Generator
-document.addEventListener('DOMContentLoaded', function() {
-    // Only generate TOC if the page has toc: true in front matter
-    const tocEnabled = document.querySelector('meta[name="toc"]');
-    if (!tocEnabled) return;
+- [目录](#目录)
+- [About Me {#about-me}](#about-me-about-me)
+- [Research Experience {#research-experience}](#research-experience-research-experience)
+  - [Fact Verification on Multi-Step Reasoning Questions {#fact-verification-on-multi-step-reasoning-questions}](#fact-verification-on-multi-step-reasoning-questions-fact-verification-on-multi-step-reasoning-questions)
+  - [RAG-Augmented Reasoning for Domain-Specific Multi-Modal QA {#rag-augmented-reasoning-for-domain-specific-multi-modal-qa}](#rag-augmented-reasoning-for-domain-specific-multi-modal-qa-rag-augmented-reasoning-for-domain-specific-multi-modal-qa)
+  - [AI4Physics Research: Reasoning and Evaluation in Physics Problem Solving {#ai4physics-research-reasoning-and-evaluation-in-physics-problem-solving}](#ai4physics-research-reasoning-and-evaluation-in-physics-problem-solving-ai4physics-research-reasoning-and-evaluation-in-physics-problem-solving)
+- [Publications {#publications}](#publications-publications)
+  - [Peer-reviewed Conference Papers {#peer-reviewed-conference-papers}](#peer-reviewed-conference-papers-peer-reviewed-conference-papers)
+- [News \& Updates {#news--updates}](#news--updates-news--updates)
+- [Education {#education}](#education-education)
+- [Contact {#contact}](#contact-contact)
 
-    const content = document.querySelector('.post-content, .page-content, .entry-content');
-    if (!content) return;
+---
 
-    // Find all headings
-    const headings = content.querySelectorAll('h1, h2, h3, h4, h5, h6');
-    if (headings.length < 2) return; // Need at least 2 headings for a TOC
-
-    // Create TOC container
-    const tocContainer = document.createElement('div');
-    tocContainer.className = 'toc';
-    tocContainer.innerHTML = '<div class="toc-title">目录</div><ul class="toc-list"></ul>';
-
-    // Insert TOC before the first heading
-    const firstHeading = headings[0];
-    firstHeading.parentNode.insertBefore(tocContainer, firstHeading);
-
-    const tocList = tocContainer.querySelector('.toc-list');
-    let currentLevel = 0;
-    let currentUl = tocList;
-
-    headings.forEach((heading, index) => {
-        const level = parseInt(heading.tagName.charAt(1));
-        const id = heading.id || `heading-${index}`;
-        heading.id = id;
-
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = `#${id}`;
-        a.textContent = heading.textContent;
-        a.className = `toc-link toc-level-${level}`;
-        li.appendChild(a);
-
-        if (level > currentLevel) {
-            // Create new nested ul
-            const newUl = document.createElement('ul');
-            newUl.className = 'toc-sublist';
-            currentUl.appendChild(li);
-            li.appendChild(newUl);
-            currentUl = newUl;
-        } else if (level < currentLevel) {
-            // Go back up the hierarchy
-            while (currentLevel > level) {
-                currentUl = currentUl.parentNode.parentNode;
-                currentLevel--;
-            }
-            currentUl.appendChild(li);
-        } else {
-            // Same level
-            currentUl.appendChild(li);
-        }
-
-        currentLevel = level;
-    });
-
-    // Add smooth scrolling
-    tocList.addEventListener('click', function(e) {
-        if (e.target.tagName === 'A') {
-            e.preventDefault();
-            const targetId = e.target.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        }
-    });
-
-    // Add active state to current section
-    const observerOptions = {
-        rootMargin: '-20% 0px -80% 0px',
-        threshold: 0
-    };
-
-    const observer = new IntersectionObserver(function(entries) {
-        entries.forEach(entry => {
-            const id = entry.target.id;
-            const tocLink = tocContainer.querySelector(`a[href="#${id}"]`);
-            if (tocLink) {
-                if (entry.isIntersecting) {
-                    tocLink.classList.add('active');
-                } else {
-                    tocLink.classList.remove('active');
-                }
-            }
-        });
-    }, observerOptions);
-
-    headings.forEach(heading => {
-        observer.observe(heading);
-    });
-});
-</script>
-
-## About Me
+## About Me {#about-me}
 
 <div style="text-align: center; margin-bottom: 30px;">
   <img src="/assets/photo.jpg" alt="Kaiyue Feng" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #ddd;">
@@ -128,23 +40,23 @@ I am currently working with **Professor Chen Zhao** at NYU Shanghai on **RAG (Re
 
 ---
 
-## Research Experience
+## Research Experience {#research-experience}
 
-### Fact Verification on Multi-Step Reasoning Questions
+### Fact Verification on Multi-Step Reasoning Questions {#fact-verification-on-multi-step-reasoning-questions}
 * **Supervisor:** Professor Chen Zhao, **Institution:** NYU Shanghai
 * *Date: September 2023 – December 2024*
 
 This project focused on developing robust fact verification systems for complex multi-step reasoning questions, improving the accuracy and reliability of AI systems in handling intricate logical reasoning tasks.
 
 
-### RAG-Augmented Reasoning for Domain-Specific Multi-Modal QA
+### RAG-Augmented Reasoning for Domain-Specific Multi-Modal QA {#rag-augmented-reasoning-for-domain-specific-multi-modal-qa}
 * **Supervisor:** Professor Chen Zhao, **Institution:** NYU Shanghai
 * *Date: September 2024 – Present*
 
 This project focuses on developing advanced Retrieval-Augmented Generation (RAG) systems to improve question-answering capabilities across multiple modalities in domain-specific contexts.
 
   
-### AI4Physics Research: Reasoning and Evaluation in Physics Problem Solving
+### AI4Physics Research: Reasoning and Evaluation in Physics Problem Solving {#ai4physics-research-reasoning-and-evaluation-in-physics-problem-solving}
 * **Supervisor:** Professor Chen Zhao, Professor Arman Cohan, Professor John Sous, Yilun Zhao **Institution:** NYU Shanghai, Yale University
 * *Date: December 2024 – Present*
 
@@ -153,11 +65,11 @@ This collaborative project explores the application of artificial intelligence t
 
 ---
 
-## Publications
+## Publications {#publications}
 
 (*Note: Asterisk (\*) denotes co-first authorship.*)
 
-### Peer-reviewed Conference Papers
+### Peer-reviewed Conference Papers {#peer-reviewed-conference-papers}
 
 **"PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving"**
 
@@ -171,7 +83,7 @@ This collaborative project explores the application of artificial intelligence t
 
 ---
 
-## News & Updates
+## News & Updates {#news--updates}
 
 * **June 2025:** Our paper "PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving" was accepted at ACL 2025 (Findings)!
 * **May 2025:** Submitted a paper on RAG-Augmented Reasoning for Multi-Modal Question Answering to EMNLP 2025 (Under Review).
@@ -180,7 +92,7 @@ This collaborative project explores the application of artificial intelligence t
 
 ---
 
-## Education
+## Education {#education}
 
 **New York University Shanghai**  
 *Bachelor of Science in Computer Science*  
@@ -189,7 +101,7 @@ This collaborative project explores the application of artificial intelligence t
 
 ---
 
-## Contact
+## Contact {#contact}
 
 I welcome collaboration opportunities and discussions about research in AI4Science, Reasoning, and Multimodal LLMs. I'm also actively seeking PhD opportunities in top-tier programs. Feel free to reach out!
 
