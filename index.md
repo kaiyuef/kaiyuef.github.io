@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome
+title: Kaiyue Feng
 subtitle: Senior Undergraduate in Computer Science at NYU Shanghai
 bigimg: /assets/avatar.jpg
 ---
@@ -11,37 +11,44 @@ bigimg: /assets/avatar.jpg
   <img src="/assets/photo.jpg" alt="Kaiyue Feng" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #ddd;">
 </div>
 
-I am an aspiring researcher dedicated to exploring AI4Science, Reasoning and multimodal LLMs. I am currently a Senior Undergraduate in Computer Science at NYU Shanghai, seeking opportunities to pursue original research and contribute to this field.
+Hi! I am an aspiring researcher dedicated to exploring AI4Science, Reasoning, and multimodal LLMs. I am currently a Senior Undergraduate in Computer Science at NYU Shanghai, actively seeking opportunities to pursue original research and contribute to these rapidly evolving fields.
 
-My research interests include:
-- **AI4Science**: Applying artificial intelligence to scientific discovery and research
-- **Reasoning**: Developing AI systems with enhanced logical reasoning capabilities
-- **Multimodal LLMs**: Exploring large language models that can process and understand multiple types of data
+**Research Interests:**
+- **AI4Science**: Applying artificial intelligence to accelerate scientific discovery and research processes
+- **Reasoning**: Developing AI systems with enhanced logical reasoning and problem-solving capabilities
+- **Multimodal LLMs**: Exploring large language models that can process and understand multiple types of data simultaneously
 
-I'm currently working with Professor Chen Zhao from NYU shanghai in the field of RAG and QA systems. I'm also collaborating with Yale NLP under professor Arman Cohan and Professor John Sous in the field of AI4physics.
+**Current Research:**
+I am currently working with **Professor Chen Zhao** at NYU Shanghai on **RAG (Retrieval-Augmented Generation) and QA systems**, focusing on improving information retrieval and question-answering capabilities. Additionally, I am collaborating with **Yale NLP** under **Professor Arman Cohan** and **Professor John Sous** in the field of **AI4Physics**, exploring the intersection of artificial intelligence and physics research.
 ---
 
 ## Research Experience
 
-### [Title of Project One]
-* **Supervisor:** [Professor's Name], **Institution:** [Lab / University Name]
-* *Date: [Start Month, Year] – [End Month, Year]*
+### Fact verification on multi-step reasoning questions
+* **Supervisor:** Professor Chen Zhao, **Institution:** NYU Shanghai
+* *Date: September 2024 – Present*
 
-This project aimed to solve [describe the core problem or goal in one sentence].
+### RAG and QA Systems Research
+* **Supervisor:** Professor Chen Zhao, **Institution:** NYU Shanghai
+* *Date: September 2024 – Present*
+
+This project focuses on developing advanced Retrieval-Augmented Generation (RAG) systems to improve question-answering capabilities through enhanced information retrieval and generation mechanisms.
 
 **My Contributions:**
-* Implemented [describe your first key contribution].
-* Designed and tested [describe your second key contribution].
+* Implemented and optimized retrieval algorithms for better document ranking and relevance scoring
+* Designed and tested novel approaches for integrating external knowledge sources into QA systems
+* Developed evaluation frameworks to assess system performance across multiple metrics
 
-### [Title of Project Two]
-* **Supervisor:** [Professor's Name], **Institution:** [Lab / University Name]
-* *Date: [Start Month, Year] – [End Month, Year]*
+### AI4Physics Research
+* **Supervisor:** Professor Arman Cohan & Professor John Sous, **Institution:** Yale NLP
+* *Date: January 2025 – Present*
 
-[Brief description of the project and your role.]
+This collaborative project explores the application of artificial intelligence techniques to solve complex physics problems, particularly focusing on computational physics and scientific modeling.
 
 **Key Achievements:**
-* [Achievement 1]
-* [Achievement 2]
+* Developing machine learning models for physics simulation and prediction
+* Contributing to the development of AI-driven scientific discovery tools
+* Participating in interdisciplinary research bridging computer science and physics
 
 ---
 
@@ -51,35 +58,33 @@ This project aimed to solve [describe the core problem or goal in one sentence].
 
 ### Peer-reviewed Conference Papers
 
-[It is perfectly normal for an undergraduate to not have any here.]
-
-1. **[Your Name]**, [Other Author(s)]. "[Paper Title]." In *[Full Conference Name (Abbreviation)]*, [Year].
-   **[ [PDF](link) ]** **[ [arXiv](link) ]** **[ [Code](link) ]** **[ [Slides](link) ]**
+*Currently preparing manuscripts for submission to top-tier conferences in NLP and AI.*
 
 ### Preprints & Reports
 
-1. **[Your Name]**, [Other Author(s)]. "[Paper/Report Title]." *arXiv preprint arXiv:[Number]*, [Year].
-   **[ [arXiv](link) ]**
+*Working on research papers in collaboration with my research groups. Updates will be posted here as projects progress.*
 
-2. **[Your Name]**. "[Course Project Title]." *[Course Name] Final Project, [Your University]*, [Year].
-   **[ [PDF](link-to-report) ]**
+### Technical Reports & Course Projects
+
+*Selected course projects and technical reports demonstrating my research interests and technical skills.*
 
 ---
 
 ## News & Updates
 
-* **Jul. 2025:** Started a summer research internship at [Lab/Institution Name].
-* **May 2025:** Completed a course project report on [Project Topic].
-* **Mar. 2025:** Presented research findings at [Conference/Event Name].
+* **January 2025:** Started collaboration with Yale NLP on AI4Physics research project.
+* **September 2024:** Began research work with Professor Chen Zhao on RAG and QA systems at NYU Shanghai.
+* **August 2024:** Completed advanced coursework in Machine Learning and Natural Language Processing.
+* **June 2024:** Participated in NYU Shanghai's undergraduate research symposium.
 
 ---
 
 ## Contact
 
-Feel free to reach out to me for collaboration opportunities or to discuss research ideas:
+I welcome collaboration opportunities and discussions about research in AI4Science, Reasoning, and Multimodal LLMs. Feel free to reach out:
 
-- **Email:** [kf2365@nyu.edu]
-- **LinkedIn:** [https://www.linkedin.com/in/kaiyue-feng-4480622b8/]
-- **GitHub:** [https://github.com/Bloominglightray]
+- **Email:** [kf2365@nyu.edu](mailto:kf2365@nyu.edu)
+- **LinkedIn:** [Kaiyue Feng](https://www.linkedin.com/in/kaiyue-feng-4480622b8/)
+- **GitHub:** [Bloominglightray](https://github.com/Bloominglightray)
 
-Feel free to reach out to me for more detailed information about my background and experience.
+I'm always interested in connecting with fellow researchers, potential collaborators, and anyone passionate about advancing AI research and its applications in science.
