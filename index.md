@@ -2,10 +2,14 @@
 layout: page
 title: Welcome
 subtitle: Senior Undergraduate in Computer Science at NYU Shanghai
-bigimg: /assets/photo.jpg
+bigimg: /assets/avatar.jpg
 ---
 
 ## About Me
+
+<div style="text-align: center; margin-bottom: 30px;">
+  <img src="/assets/photo.jpg" alt="Kaiyue Feng" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #ddd;">
+</div>
 
 I am an aspiring researcher dedicated to exploring AI4Science, Reasoning and multimodal LLMs. I am currently a Senior Undergraduate in Computer Science at NYU Shanghai, seeking opportunities to pursue original research and contribute to this field.
 
@@ -14,6 +18,7 @@ My research interests include:
 - **Reasoning**: Developing AI systems with enhanced logical reasoning capabilities
 - **Multimodal LLMs**: Exploring large language models that can process and understand multiple types of data
 
+I'm currently working with Professor Chen Zhao from NYU shanghai in the field of RAG and QA systems. I'm also collaborating with Yale NLP under professor Arman Cohan and Professor John Sous in the field of AI4physics.
 ---
 
 ## Research Experience
@@ -73,7 +78,7 @@ This project aimed to solve [describe the core problem or goal in one sentence].
 
 Feel free to reach out to me for collaboration opportunities or to discuss research ideas:
 
-- **Email:** [your-email@example.com]
+- **Email:** [kf2365@nyu.edu]
 - **LinkedIn:** [https://www.linkedin.com/in/kaiyue-feng-4480622b8/]
 - **GitHub:** [https://github.com/Bloominglightray]
 
