@@ -1,8 +1,40 @@
-# 选择一个 Jekyll 主题
-theme: jekyll-theme-cayman
+# --------------------- #
+#   Basic Information   #
+# --------------------- #
+theme: jekyll-theme-minimal # The theme you chose. You can change it to others like jekyll-theme-cayman.
+title: Kaiyue Feng - Personal Homepage # Your website's title
+author: Kaiyue Feng
+description: > # A short bio that appears in search results and under your site title.
+  Senior Undergraduate in Computer Science at NYU Shanghai
+  My research interests include AI4Science, Reasoning and multimodal LLMs.
+  Welcome to my personal website.
 
-# 网站的标题，会显示在浏览器标签页上
-title: Kaiyue Feng's Homepage
+# --------------------- #
+#    Navigation Bar     #
+# --------------------- #
+# Most themes will use this list to build a navigation menu.
+navigation:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research
+  - title: Publications
+    url: /publications
+  - title: CV
+    url: /assets/pdf/CV.pdf # A direct link to your CV PDF file.
 
-# 网站的描述，方便搜索引擎了解你的网站
-description: Welcome to my personal page!
+# --------------------- #
+#     Social Links      #
+# --------------------- #
+# The format may vary by theme, but this is a common setup.
+github_username: Bloominglightray
+linkedin_website: https://www.linkedin.com/in/kaiyue-feng-4480622b8/
+# google_scholar_id: [Your-Google-Scholar-ID]
+# twitter_username: [Your-Academic-Twitter-Username]
+
+# --------------------- #
+#     Customization     #
+# --------------------- #
+# The following settings are optional.
+# You can customize the theme by changing these values.
+# For more details, please refer to the theme's documentation.
