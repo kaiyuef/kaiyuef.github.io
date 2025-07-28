@@ -74,6 +74,15 @@ This collaborative project explores the application of artificial intelligence t
 
 ---
 
+## Education
+
+**New York University Shanghai**  
+*Bachelor of Science in Computer Science*  
+*Expected Graduation: May 2026*  
+*GPA: 3.7/4.0*
+
+---
+
 ## Contact
 
 I welcome collaboration opportunities and discussions about research in AI4Science, Reasoning, and Multimodal LLMs. I'm also actively seeking PhD opportunities in top-tier programs. Feel free to reach out!
