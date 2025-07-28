@@ -50,7 +50,7 @@ This collaborative project explores the application of artificial intelligence t
 
 ## Publications
 
-(*Note: Asterisk (*) denotes co-first authorship.*)
+(*Note: Asterisk (\*) denotes co-first authorship.*)
 
 ### Peer-reviewed Conference Papers
 
