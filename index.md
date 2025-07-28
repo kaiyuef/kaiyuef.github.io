@@ -81,7 +81,6 @@ I welcome collaboration opportunities and discussions about research in AI4Scien
 - **Email:** [kf2365@nyu.edu](mailto:kf2365@nyu.edu)
 - **LinkedIn:** [Kaiyue Feng](https://www.linkedin.com/in/kaiyue-feng-4480622b8/)
 - **GitHub:** [Bloominglightray](https://github.com/Bloominglightray)
-- **WeChat/Chinese Phone:** +86 181-2121-1003
-- **US Phone:** +1 (206) 886-4014 
+- **WeChat:** +86 181-2121-1003
 
 I'm always interested in connecting with fellow researchers, potential collaborators, and anyone passionate about advancing AI research and its applications in science.
