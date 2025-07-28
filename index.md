@@ -20,6 +20,7 @@ Hello! I am an aspiring researcher passionate about exploring AI4Science, Reason
 
 **Current Research:**
 I am currently working with **Professor Chen Zhao** at NYU Shanghai on **RAG (Retrieval-Augmented Generation) and QA systems**, focusing on improving information retrieval and question-answering capabilities. Additionally, I am collaborating with **Yale NLP** under **Professor Arman Cohan** and **Professor John Sous** in the field of **AI4Physics**, exploring the intersection of artificial intelligence and physics research.
+
 ---
 
 ## Research Experience
@@ -30,21 +31,12 @@ I am currently working with **Professor Chen Zhao** at NYU Shanghai on **RAG (Re
 
 This project focused on developing robust fact verification systems for complex multi-step reasoning questions, improving the accuracy and reliability of AI systems in handling intricate logical reasoning tasks.
 
-**My Contributions:**
-* Designed and implemented fact verification algorithms for multi-step reasoning scenarios
-* Developed evaluation metrics to assess reasoning accuracy and fact-checking capabilities
-* Created datasets and benchmarks for testing multi-step reasoning systems
 
 ### RAG-Augmented Reasoning for Domain-Specific Multi-Modal QA
 * **Supervisor:** Professor Chen Zhao, **Institution:** NYU Shanghai
 * *Date: September 2024 – Present*
 
 This project focuses on developing advanced Retrieval-Augmented Generation (RAG) systems to improve question-answering capabilities across multiple modalities in domain-specific contexts.
-
-**My Contributions:**
-* Implemented and optimized retrieval algorithms for better document ranking and relevance scoring
-* Designed and tested novel approaches for integrating external knowledge sources into multi-modal QA systems
-* Developed evaluation frameworks to assess system performance across multiple metrics
 
   
 ### AI4Physics Research: Reasoning and Evaluation in Physics Problem Solving
@@ -53,10 +45,6 @@ This project focuses on developing advanced Retrieval-Augmented Generation (RAG)
 
 This collaborative project explores the application of artificial intelligence techniques to solve complex physics problems, particularly focusing on computational physics, scientific modeling, and reasoning capabilities in physics problem-solving.
 
-**Key Achievements:**
-* Developing machine learning models for physics simulation and prediction
-* Contributing to the development of AI-driven scientific discovery tools
-* Participating in interdisciplinary research bridging computer science and physics
 
 ---
 
@@ -67,10 +55,12 @@ This collaborative project explores the application of artificial intelligence t
 ### Peer-reviewed Conference Papers
 
 **"PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving"**
+
 *Kaiyue Feng\**, Yilun Zhao*, Yixin Liu, Tianyu Yang, Chen Zhao, John Sous, Arman Cohan*
 *Accepted at ACL 2025 (Findings)*
 
 **"RAG-Augmented Reasoning for Multi-Modal Question Answering"** *(Under Review)*
+
 *Kaiyue Feng\**, Siyue Zhang*, Bingsen Chen, Yilun Zhao, Chen Zhao*
 *Submitted to EMNLP 2025*
 ---
