@@ -11,7 +11,7 @@ bigimg: /assets/avatar.jpg
   <img src="/assets/photo.jpg" alt="Kaiyue Feng" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #ddd;">
 </div>
 
-Hi! I am an aspiring researcher dedicated to exploring AI4Science, Reasoning, and multimodal LLMs. I am currently a Senior Undergraduate in Computer Science at NYU Shanghai, actively seeking opportunities to pursue original research and contribute to these rapidly evolving fields.
+Hello! I am an aspiring researcher passionate about exploring AI4Science, Reasoning, and multimodal LLMs. I am currently a Senior Undergraduate in Computer Science at NYU Shanghai, actively seeking opportunities to pursue original research and contribute to these rapidly evolving fields.
 
 **Research Interests:**
 - **AI4Science**: Applying artificial intelligence to accelerate scientific discovery and research processes
@@ -24,26 +24,34 @@ I am currently working with **Professor Chen Zhao** at NYU Shanghai on **RAG (Re
 
 ## Research Experience
 
-### Fact verification on multi-step reasoning questions
+### Fact Verification on Multi-Step Reasoning Questions
+* **Supervisor:** Professor Chen Zhao, **Institution:** NYU Shanghai
+* *Date: September 2023 – December 2024*
+
+This project focused on developing robust fact verification systems for complex multi-step reasoning questions, improving the accuracy and reliability of AI systems in handling intricate logical reasoning tasks.
+
+**My Contributions:**
+* Designed and implemented fact verification algorithms for multi-step reasoning scenarios
+* Developed evaluation metrics to assess reasoning accuracy and fact-checking capabilities
+* Created datasets and benchmarks for testing multi-step reasoning systems
+
+### RAG-Augmented Reasoning for Domain-Specific Multi-Modal QA
 * **Supervisor:** Professor Chen Zhao, **Institution:** NYU Shanghai
 * *Date: September 2024 – Present*
 
-### RAG and QA Systems Research
-* **Supervisor:** Professor Chen Zhao, **Institution:** NYU Shanghai
-* *Date: September 2024 – Present*
-
-This project focuses on developing advanced Retrieval-Augmented Generation (RAG) systems to improve question-answering capabilities through enhanced information retrieval and generation mechanisms.
+This project focuses on developing advanced Retrieval-Augmented Generation (RAG) systems to improve question-answering capabilities across multiple modalities in domain-specific contexts.
 
 **My Contributions:**
 * Implemented and optimized retrieval algorithms for better document ranking and relevance scoring
-* Designed and tested novel approaches for integrating external knowledge sources into QA systems
+* Designed and tested novel approaches for integrating external knowledge sources into multi-modal QA systems
 * Developed evaluation frameworks to assess system performance across multiple metrics
 
-### AI4Physics Research
-* **Supervisor:** Professor Arman Cohan & Professor John Sous, **Institution:** Yale NLP
-* *Date: January 2025 – Present*
+  
+### AI4Physics Research: Reasoning and Evaluation in Physics Problem Solving
+* **Supervisor:** Professor Chen Zhao, Professor Arman Cohan, Professor John Sous, Yilun Zhao **Institution:** NYU Shanghai, Yale University
+* *Date: December 2024 – Present*
 
-This collaborative project explores the application of artificial intelligence techniques to solve complex physics problems, particularly focusing on computational physics and scientific modeling.
+This collaborative project explores the application of artificial intelligence techniques to solve complex physics problems, particularly focusing on computational physics, scientific modeling, and reasoning capabilities in physics problem-solving.
 
 **Key Achievements:**
 * Developing machine learning models for physics simulation and prediction
@@ -58,33 +66,32 @@ This collaborative project explores the application of artificial intelligence t
 
 ### Peer-reviewed Conference Papers
 
-*Currently preparing manuscripts for submission to top-tier conferences in NLP and AI.*
+**"PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving"**
+*Kaiyue Feng\**, Yilun Zhao*, Yixin Liu, Tianyu Yang, Chen Zhao, John Sous, Arman Cohan*
+*Accepted at ACL 2025 (Findings)*
 
-### Preprints & Reports
-
-*Working on research papers in collaboration with my research groups. Updates will be posted here as projects progress.*
-
-### Technical Reports & Course Projects
-
-*Selected course projects and technical reports demonstrating my research interests and technical skills.*
-
+**"RAG-Augmented Reasoning for Multi-Modal Question Answering"** *(Under Review)*
+*Kaiyue Feng\**, Siyue Zhang*, Bingsen Chen, Yilun Zhao, Chen Zhao*
+*Submitted to EMNLP 2025*
 ---
 
 ## News & Updates
 
+* **June 2025:** Our paper "PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving" was accepted at ACL 2025 (Findings)!
+* **May 2025:** Submitted a paper on RAG-Augmented Reasoning for Multi-Modal Question Answering to EMNLP 2025 (Under Review).
 * **January 2025:** Started collaboration with Yale NLP on AI4Physics research project.
 * **September 2024:** Began research work with Professor Chen Zhao on RAG and QA systems at NYU Shanghai.
-* **August 2024:** Completed advanced coursework in Machine Learning and Natural Language Processing.
-* **June 2024:** Participated in NYU Shanghai's undergraduate research symposium.
 
 ---
 
 ## Contact
 
-I welcome collaboration opportunities and discussions about research in AI4Science, Reasoning, and Multimodal LLMs. Feel free to reach out:
+I welcome collaboration opportunities and discussions about research in AI4Science, Reasoning, and Multimodal LLMs. I'm also actively seeking PhD opportunities in top-tier programs. Feel free to reach out!
 
 - **Email:** [kf2365@nyu.edu](mailto:kf2365@nyu.edu)
 - **LinkedIn:** [Kaiyue Feng](https://www.linkedin.com/in/kaiyue-feng-4480622b8/)
 - **GitHub:** [Bloominglightray](https://github.com/Bloominglightray)
+- **WeChat/Chinese Phone:** +86 181-2121-1003
+- **US Phone:** +1 (206) 886-4014 
 
 I'm always interested in connecting with fellow researchers, potential collaborators, and anyone passionate about advancing AI research and its applications in science.
