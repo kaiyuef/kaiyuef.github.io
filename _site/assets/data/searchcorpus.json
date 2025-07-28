@@ -1,0 +1,20 @@
+[ 
+ 
+ 
+{ 
+"title"    : "Kaiyue Feng", 
+"desc"     : "Kaiyue Feng", 
+"category" : "page", 
+"url"      : "/", 
+"date"     : "January 1, 1970" 
+}, 
+ 
+{ 
+"title"    : "图片资源说明", 
+"desc"     : "图片资源说明", 
+"category" : "page", 
+"url"      : "/ASSETS_README.html", 
+"date"     : "January 1, 1970" 
+} 
+ 
+]

@@ -1,0 +1,78 @@
+/* Custom Table of Contents Styles */
+.toc {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 20px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
+.toc-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px;
+}
+
+.toc-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.toc-sublist {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.toc-list li {
+  margin-bottom: 8px;
+}
+
+.toc-link {
+  color: #495057;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: block;
+  padding: 2px 0;
+}
+
+.toc-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.toc-link.active {
+  color: #007bff;
+  font-weight: bold;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin: 0 -8px;
+}
+
+/* Level-specific styling */
+.toc-level-1 { font-weight: bold; }
+.toc-level-2 { font-weight: normal; }
+.toc-level-3 { font-size: 0.95em; color: #666; }
+.toc-level-4 { font-size: 0.9em; color: #777; }
+.toc-level-5 { font-size: 0.85em; color: #888; }
+.toc-level-6 { font-size: 0.8em; color: #999; }
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .toc {
+    margin-bottom: 20px;
+    padding: 15px;
+    position: static;
+    max-height: none;
+  }
+} 

@@ -57,3 +57,24 @@ show_comments: false
 show_tags: true
 show_categories: true
 
+# --------------------- #
+#     Table of Contents #
+# --------------------- #
+# Enable table of contents for posts
+toc: true
+toc_sticky: true
+
+# --------------------- #
+#     Plugins          #
+# --------------------- #
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# --------------------- #
+#     Custom CSS       #
+# --------------------- #
+# Include custom CSS for better TOC styling
+custom_css:
+  - assets/css/custom.css
+
