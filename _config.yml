@@ -1,14 +1,14 @@
 # --------------------- #
 #   Basic Information   #
 # --------------------- #
-theme: jekyll-theme-minimal # The theme you chose. You can change it to others like jekyll-theme-cayman.
+remote_theme: daattali/beautiful-jekyll The theme you chose. You can change it to others like jekyll-theme-cayman.
 title: Kaiyue Feng - Personal Homepage # Your website's title
 author: Kaiyue Feng
 description: > # A short bio that appears in search results and under your site title.
   Senior Undergraduate in Computer Science at NYU Shanghai
   My research interests include AI4Science, Reasoning and multimodal LLMs.
   Welcome to my personal website.
-
+avatar: assets/photo.jpgs
 # --------------------- #
 #    Navigation Bar     #
 # --------------------- #

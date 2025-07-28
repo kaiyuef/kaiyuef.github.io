@@ -1,12 +1,12 @@
 ---
-layout: default
+# 首页的特殊设置
+layout: "page"
+# 页面顶部大图的设置
+bigimg: /assets/photo.jpg # 你需要自己上传一张图片作为背景
+title: Welcome
 ---
 
-# {{ site.author }}
-
-<img src="[Link to your professional photo, e.g., /assets/img/profile.jpg]" alt="photo" width="200"/>
-
-{{ site.description }}
+## About Me
 
 I am an aspiring researcher dedicated to exploring [your specific field of interest, e.g., how machines can better understand the human world]. I am currently seeking a Ph.D. position to pursue original research and contribute to this field.
 
@@ -17,5 +17,4 @@ On this website, you can find my [research experience](/research), [publications
 ## News & Updates
 
 * **Jul. 2025:** Started a summer research internship at [Lab/Institution Name].
-* **May 2025:** My course project report on [Project Topic] is now available.
-* **Mar. 2025:** Attended the [Conference Name] and was inspired by the latest advancements.
+* **May 2025:** Completed a course project report on [Project Topic].
