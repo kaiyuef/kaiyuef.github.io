@@ -1,14 +1,18 @@
 # --------------------- #
 #   Basic Information   #
 # --------------------- #
-remote_theme: daattali/beautiful-jekyll The theme you chose. You can change it to others like jekyll-theme-cayman.
-title: Kaiyue Feng - Personal Homepage # Your website's title
+remote_theme: daattali/beautiful-jekyll
+title: Kaiyue Feng - Personal Homepage
 author: Kaiyue Feng
 description: > # A short bio that appears in search results and under your site title.
   Senior Undergraduate in Computer Science at NYU Shanghai
   My research interests include AI4Science, Reasoning and multimodal LLMs.
   Welcome to my personal website.
-avatar: assets/photo.jpgs
+avatar: assets/photo.jpg
+email: your-email@example.com
+location: Shanghai, China
+url: https://bloominglightray.github.io
+baseurl: ""
 # --------------------- #
 #    Navigation Bar     #
 # --------------------- #
@@ -16,12 +20,6 @@ avatar: assets/photo.jpgs
 navigation:
   - title: Home
     url: /
-  - title: Research
-    url: /research
-  - title: Publications
-    url: /publications
-  - title: CV
-    url: /assets/pdf/CV.pdf # A direct link to your CV PDF file.
 
 # --------------------- #
 #     Social Links      #
@@ -38,3 +36,24 @@ linkedin_website: https://www.linkedin.com/in/kaiyue-feng-4480622b8/
 # The following settings are optional.
 # You can customize the theme by changing these values.
 # For more details, please refer to the theme's documentation.
+
+# --------------------- #
+#     Pagination       #
+# --------------------- #
+# Set to false to disable pagination and show all posts on homepage
+paginate: false
+paginate_path: "/page/:num/"
+
+# --------------------- #
+#     Theme Settings    #
+# --------------------- #
+# Beautiful Jekyll specific settings
+show_avatar: true
+show_social_links: true
+show_description: true
+show_related_posts: false
+show_share_buttons: true
+show_comments: false
+show_tags: true
+show_categories: true
+
