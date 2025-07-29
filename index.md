@@ -28,11 +28,7 @@ I am currently working with **Professor Chen Zhao** at NYU Shanghai on **RAG (Re
 **New York University Shanghai**  
 *Bachelor of Science in Computer Science*  
 *Expected Graduation: May 2026*  
-*GPA: 3.7/4.0*
 
-**Key Coursework:** Machine Learning, Natural Language Processing, Computer Vision, Software Engineering, Database Systems
-
-**Skills:** Python, Java, C++, PyTorch, TensorFlow, Git, LaTeX
 
 ---
 
