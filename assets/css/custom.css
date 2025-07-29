@@ -1,19 +1,29 @@
-/* Simple Table of Contents Styles */
+/* Fixed Left Sidebar Table of Contents */
 .toc {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 6px;
-  padding: 15px;
-  margin-bottom: 20px;
+  position: fixed;
+  left: 20px;
+  top: 100px;
+  width: 220px;
+  max-height: calc(100vh - 120px);
+  background: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 13px;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .toc-title {
-  font-size: 1.1em;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 600;
   margin-bottom: 10px;
-  color: #333;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
+  color: #24292e;
+  border-bottom: 1px solid #e1e4e8;
+  padding-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .toc ul {
@@ -23,19 +33,46 @@
 }
 
 .toc ul ul {
-  padding-left: 15px;
+  padding-left: 12px;
+  margin-top: 2px;
 }
 
 .toc li {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .toc a {
-  color: #495057;
+  color: #586069;
   text-decoration: none;
+  display: block;
+  padding: 3px 6px;
+  transition: all 0.2s ease;
+  line-height: 1.3;
+  border-radius: 4px;
 }
 
 .toc a:hover {
-  color: #007bff;
-  text-decoration: underline;
+  color: #0366d6;
+  background-color: #f6f8fa;
+  text-decoration: none;
+}
+
+/* Add left margin to page content to avoid overlap with TOC */
+.page-content, .post-content, .entry-content {
+  margin-left: 260px;
+}
+
+/* Responsive design - hide on mobile */
+@media (max-width: 768px) {
+  .toc {
+    position: static;
+    width: auto;
+    max-height: none;
+    margin-bottom: 20px;
+    box-shadow: none;
+  }
+  
+  .page-content, .post-content, .entry-content {
+    margin-left: 0;
+  }
 } 
