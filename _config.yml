@@ -1,7 +1,7 @@
 # --------------------- #
 #   Basic Information   #
 # --------------------- #
-remote_theme: daattali/beautiful-jekyll
+remote_theme: academicpages/academicpages.github.io
 title: Kaiyue Feng - Personal Homepage
 author: Kaiyue Feng
 description: > # A short bio that appears in search results and under your site title.
@@ -11,7 +11,7 @@ description: > # A short bio that appears in search results and under your site 
 avatar: assets/avatar.jpg
 email: kf2365@nyu.edu
 location: Shanghai, China
-url: https://bloominglightray.github.io
+url: https://kaiyuef.github.io
 baseurl: ""
 # --------------------- #
 #    Navigation Bar     #
@@ -29,7 +29,7 @@ navigation:
 #     Social Links      #
 # --------------------- #
 # The format may vary by theme, but this is a common setup.
-github_username: Bloominglightray
+github_username: kaiyuef
 linkedin_website: https://www.linkedin.com/in/kaiyue-feng-4480622b8/
 # google_scholar_id: [Your-Google-Scholar-ID]
 # twitter_username: [Your-Academic-Twitter-Username]
@@ -51,7 +51,7 @@ paginate_path: "/page/:num/"
 # --------------------- #
 #     Theme Settings    #
 # --------------------- #
-# Beautiful Jekyll specific settings
+# Academic Pages specific settings
 show_avatar: true
 show_social_links: true
 show_description: true

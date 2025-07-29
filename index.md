@@ -5,17 +5,6 @@ subtitle: Senior Undergraduate in Computer Science at NYU Shanghai
 bigimg: /assets/avatar.jpg
 ---
 
-<div class="quick-navigation">
-<h2>Quick Navigation</h2>
-
-<ul>
-<li><a href="research.md"><strong>Research Experience</strong></a> - Detailed research projects and collaborations</li>
-<li><a href="publications.md"><strong>Publications</strong></a> - Academic papers and publications</li>
-</ul>
-</div>
-
----
-
 ## About Me
 
 <div style="text-align: center; margin-bottom: 30px;">
@@ -56,13 +45,24 @@ I am currently working with **Professor Chen Zhao** at NYU Shanghai on **RAG (Re
 
 ---
 
+<div class="quick-links">
+## Quick Links
+
+- **[Research Experience](research.md)** - Detailed research projects and collaborations
+- **[Publications](publications.md)** - Academic papers and publications
+</div>
+
+---
+
+<div class="contact-info">
 ## Contact
 
 I welcome collaboration opportunities and discussions about research in AI4Science, Reasoning, and Multimodal LLMs. I'm also actively seeking PhD opportunities in top-tier programs. Feel free to reach out!
 
 - **Email:** [kf2365@nyu.edu](mailto:kf2365@nyu.edu)
 - **LinkedIn:** [Kaiyue Feng](https://www.linkedin.com/in/kaiyue-feng-4480622b8/)
-- **GitHub:** [Bloominglightray](https://github.com/Bloominglightray)
+- **GitHub:** [kaiyuef](https://github.com/kaiyuef)
 - **WeChat:** +86 181-2121-1003
 
 I'm always interested in connecting with fellow researchers, potential collaborators, and anyone passionate about advancing AI research and its applications in science.
+</div>
