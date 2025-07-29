@@ -1,7 +1,7 @@
 # --------------------- #
 #   Basic Information   #
 # --------------------- #
-remote_theme: academicpages/academicpages.github.io
+remote_theme: daattali/beautiful-jekyll@5.0.0
 title: Kaiyue Feng - Personal Homepage
 author: Kaiyue Feng
 description: > # A short bio that appears in search results and under your site title.
@@ -13,6 +13,7 @@ email: kf2365@nyu.edu
 location: Shanghai, China
 url: https://kaiyuef.github.io
 baseurl: ""
+
 # --------------------- #
 #    Navigation Bar     #
 # --------------------- #
@@ -51,7 +52,7 @@ paginate_path: "/page/:num/"
 # --------------------- #
 #     Theme Settings    #
 # --------------------- #
-# Academic Pages specific settings
+# Beautiful Jekyll specific settings
 show_avatar: true
 show_social_links: true
 show_description: true
@@ -61,16 +62,36 @@ show_comments: false
 show_tags: true
 show_categories: true
 
+# Beautiful Jekyll theme options
+theme_color: "#2c3e50"
+theme_color_2: "#3498db"
+navbar_color: "#2c3e50"
+navbar_text_color: "#ffffff"
+navbar_hover_color: "#3498db"
+navbar_hover_text_color: "#ffffff"
+navbar_border_color: "#e7e7e7"
+navbar_border_width: "1px"
+navbar_border_style: "solid"
+navbar_border_radius: "0px"
+
 # --------------------- #
 #     Plugins          #
 # --------------------- #
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # --------------------- #
 #     Custom CSS       #
 # --------------------- #
 custom_css:
   - assets/css/custom.css
+
+# --------------------- #
+#     SEO Settings     #
+# --------------------- #
+# SEO settings for better search engine optimization
+lang: en-US
+timezone: Asia/Shanghai
 
