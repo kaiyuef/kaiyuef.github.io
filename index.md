@@ -38,27 +38,3 @@ I am currently working with **Professor Chen Zhao** at NYU Shanghai on **RAG (Re
 * **May 2025:** 📝 Submitted a paper on RAG-Augmented Reasoning for Multi-Modal Question Answering to EMNLP 2025 (Under Review).
 * **January 2025:** 🤝 Started collaboration with Yale NLP on AI4Physics research project.
 * **September 2024:** 🔬 Began research work with Professor Chen Zhao on RAG and QA systems at NYU Shanghai.
-
----
-
-<div class="quick-links">
-## Quick Links
-
-- **[Research Experience](research.md)** - Detailed research projects and collaborations
-- **[Publications](publications.md)** - Academic papers and publications
-</div>
-
----
-
-<div class="contact-info">
-## Contact
-
-I welcome collaboration opportunities and discussions about research in AI4Science, Reasoning, and Multimodal LLMs. I'm also actively seeking PhD opportunities in top-tier programs. Feel free to reach out!
-
-- **Email:** [kf2365@nyu.edu](mailto:kf2365@nyu.edu)
-- **LinkedIn:** [Kaiyue Feng](https://www.linkedin.com/in/kaiyue-feng-4480622b8/)
-- **GitHub:** [kaiyuef](https://github.com/kaiyuef)
-- **WeChat:** +86 181-2121-1003
-
-I'm always interested in connecting with fellow researchers, potential collaborators, and anyone passionate about advancing AI research and its applications in science.
-</div>

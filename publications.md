@@ -32,4 +32,4 @@ subtitle: Academic Papers and Publications
 
 ---
 
-<a href="index.md" class="back-link">← Back to Home</a> 
+<a href="/" class="back-link">← Back to Home</a> 

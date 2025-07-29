@@ -64,4 +64,4 @@ This project focused on developing robust fact verification systems for complex 
 
 ---
 
-<a href="index.md" class="back-link">← Back to Home</a> 
+<a href="/" class="back-link">← Back to Home</a> 
