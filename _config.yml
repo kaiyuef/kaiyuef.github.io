@@ -20,6 +20,10 @@ baseurl: ""
 navigation:
   - title: Home
     url: /
+  - title: Research
+    url: /research
+  - title: Publications
+    url: /publications
 
 # --------------------- #
 #     Social Links      #
@@ -63,4 +67,10 @@ show_categories: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# --------------------- #
+#     Custom CSS       #
+# --------------------- #
+custom_css:
+  - assets/css/custom.css
 

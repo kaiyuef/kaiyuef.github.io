@@ -1,2 +1,65 @@
 /* Custom styles for the website */
-/* Add any custom CSS here if needed */ 
+
+/* Quick Links Styling */
+.quick-links {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.quick-links h2 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.quick-links li {
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  background: white;
+  border-radius: 6px;
+  border-left: 4px solid #007bff;
+  transition: all 0.2s ease;
+}
+
+.quick-links li:hover {
+  transform: translateX(5px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.quick-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.quick-links a:hover {
+  color: #007bff;
+}
+
+/* Back to Home Link */
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.back-link:hover {
+  background: #0056b3;
+  color: white;
+  text-decoration: none;
+} 
