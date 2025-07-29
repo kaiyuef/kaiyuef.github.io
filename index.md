@@ -2,7 +2,6 @@
 layout: page
 title: Kaiyue Feng
 subtitle: Senior Undergraduate in Computer Science at NYU Shanghai
-cover-img: /assets/photo.jpg
 ---
 
 ## About Me

@@ -1,4 +1,4 @@
-/* Beautiful Jekyll Custom Styles - Matching Official Theme */
+/* Beautiful Jekyll Custom Styles - Simplified Clean Design */
 
 /* Override theme variables for consistency */
 :root {
@@ -13,7 +13,7 @@
   --footer-text-col: #777777;
   --footer-link-col: #404040;
   --footer-hover-col: #0085A1;
-  --body-font: 'Lora', 'Times New Roman', serif;
+  --body-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --mid-col: #808080;
 }
@@ -21,37 +21,38 @@
 /* Clean typography for Beautiful Jekyll theme */
 body {
   font-family: var(--body-font);
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: var(--text-col);
+  background-color: var(--page-col);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--header-font);
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.1;
 }
 
 /* Page headers */
 .page-header {
-  border-bottom: 2px solid var(--navbar-border-col);
-  margin-bottom: 30px;
-  padding-bottom: 10px;
+  border-bottom: 1px solid var(--navbar-border-col);
+  margin-bottom: 25px;
+  padding-bottom: 8px;
 }
 
 /* Section styling */
 h2 {
   color: var(--text-col);
   border-bottom: 1px solid #ecf0f1;
-  padding-bottom: 10px;
-  margin-top: 2.5rem;
-  font-size: 1.875rem;
+  padding-bottom: 8px;
+  margin-top: 2rem;
+  font-size: 1.75rem;
 }
 
 h3 {
   color: var(--text-col);
-  margin-top: 1.875rem;
-  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
 }
 
 /* Links styling */
@@ -68,14 +69,15 @@ a:hover, a:focus {
 /* Back to home link */
 .back-link {
   display: inline-block;
-  margin-top: 20px;
-  padding: 8px 16px;
+  margin-top: 15px;
+  padding: 6px 12px;
   background: var(--link-col);
   color: white !important;
   text-decoration: none;
   border-radius: 4px;
   transition: background 0.2s ease;
   font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .back-link:hover {
@@ -86,80 +88,88 @@ a:hover, a:focus {
 
 /* Research interests styling */
 .research-interests {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 6px;
-  margin: 20px 0;
-  border-left: 4px solid var(--link-col);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 15px 0;
+  border-left: 3px solid var(--link-col);
 }
 
 .research-interests h3 {
-  color: var(--link-col);
+  color: var(--text-col);
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+}
+
+.research-interests ul {
+  margin-bottom: 0;
 }
 
 /* News section */
 .news-item {
-  padding: 15px;
-  margin: 15px 0;
+  padding: 12px;
+  margin: 12px 0;
   background: var(--page-col);
-  border-radius: 6px;
-  border-left: 4px solid #f6ad55;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  border-left: 3px solid #f6ad55;
 }
 
 /* Avatar styling */
 .avatar-img {
   border-radius: 50%;
-  border: 3px solid var(--link-col);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--link-col);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
+  max-width: 180px;
+  height: auto;
 }
 
 .avatar-img:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 /* Improve readability */
 p {
-  margin: 1.25rem 0;
+  margin: 1rem 0;
   line-height: 1.6;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
   .quick-links {
-    margin: 15px 0;
-    padding: 15px;
+    margin: 12px 0;
+    padding: 12px;
   }
   
   .contact-info {
-    padding: 15px;
+    padding: 12px;
   }
   
   body {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   
   h3 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  .avatar-img {
+    max-width: 150px;
   }
 }
 
 /* Custom Table of Contents Styles */
 .toc {
-  background: #f8f9fa;
+  background: #fafafa;
   border: 1px solid var(--navbar-border-col);
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 30px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
   position: sticky;
   top: 20px;
   max-height: calc(100vh - 40px);
@@ -167,12 +177,12 @@ p {
 }
 
 .toc-title {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   color: var(--text-col);
-  border-bottom: 2px solid var(--link-col);
-  padding-bottom: 8px;
+  border-bottom: 1px solid var(--link-col);
+  padding-bottom: 6px;
 }
 
 .toc-list {
@@ -183,12 +193,12 @@ p {
 
 .toc-sublist {
   list-style: none;
-  padding-left: 20px;
-  margin-top: 5px;
+  padding-left: 15px;
+  margin-top: 4px;
 }
 
 .toc-list li {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .toc-link {
@@ -207,10 +217,10 @@ p {
 .toc-link.active {
   color: var(--link-col);
   font-weight: bold;
-  background-color: rgba(0, 138, 255, 0.1);
-  border-radius: 4px;
-  padding: 2px 8px;
-  margin: 0 -8px;
+  background-color: rgba(0, 138, 255, 0.05);
+  border-radius: 3px;
+  padding: 2px 6px;
+  margin: 0 -6px;
 }
 
 /* Level-specific styling */

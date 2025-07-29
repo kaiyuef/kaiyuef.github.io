@@ -4,9 +4,7 @@
 remote_theme: daattali/beautiful-jekyll@5.0.0
 title: Kaiyue Feng
 author: Kaiyue Feng
-description: > # A short bio that appears in search results and under your site title.
-  Senior Undergraduate in Computer Science at NYU Shanghai.
-  Research interests: AI4Science, Reasoning, and Multimodal LLMs.
+description: "Senior Undergraduate in Computer Science at NYU Shanghai. Research interests: AI4Science, Reasoning, and Multimodal LLMs."
 avatar: assets/avatar.jpg
 email: kf2365@nyu.edu
 location: Shanghai, China
@@ -33,19 +31,25 @@ social-network-links:
 #     Customization     #
 # --------------------- #
 # Beautiful Jekyll specific settings
-navbar-col: "#F5F5F5"
+navbar-col: "#FFFFFF"
 navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+navbar-border-col: "#EAEAEA"
+page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#F5F5F5"
+footer-col: "#FFFFFF"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
 # --------------------- #
 #     Theme Settings    #
 # --------------------- #
+# Minimalist settings
+round-avatar: true
+title-img: false
 site-css: "/assets/css/custom.css"
+readtime: false
+post_search: false
 
 # --------------------- #
 #     Plugins          #
