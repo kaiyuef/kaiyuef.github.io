@@ -64,10 +64,3 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# --------------------- #
-#     Custom CSS       #
-# --------------------- #
-# Include custom CSS for better TOC styling
-custom_css:
-  - assets/css/custom.css
-

@@ -3,32 +3,15 @@ layout: page
 title: Kaiyue Feng
 subtitle: Senior Undergraduate in Computer Science at NYU Shanghai
 bigimg: /assets/avatar.jpg
-toc: true
 ---
 
-## 目录
-
-- [目录](#目录)
-- [About Me {#about-me}](#about-me-about-me)
-- [Research Experience {#research-experience}](#research-experience-research-experience)
-  - [Fact Verification on Multi-Step Reasoning Questions {#fact-verification-on-multi-step-reasoning-questions}](#fact-verification-on-multi-step-reasoning-questions-fact-verification-on-multi-step-reasoning-questions)
-  - [RAG-Augmented Reasoning for Domain-Specific Multi-Modal QA {#rag-augmented-reasoning-for-domain-specific-multi-modal-qa}](#rag-augmented-reasoning-for-domain-specific-multi-modal-qa-rag-augmented-reasoning-for-domain-specific-multi-modal-qa)
-  - [AI4Physics Research: Reasoning and Evaluation in Physics Problem Solving {#ai4physics-research-reasoning-and-evaluation-in-physics-problem-solving}](#ai4physics-research-reasoning-and-evaluation-in-physics-problem-solving-ai4physics-research-reasoning-and-evaluation-in-physics-problem-solving)
-- [Publications {#publications}](#publications-publications)
-  - [Peer-reviewed Conference Papers {#peer-reviewed-conference-papers}](#peer-reviewed-conference-papers-peer-reviewed-conference-papers)
-- [News \& Updates {#news--updates}](#news--updates-news--updates)
-- [Education {#education}](#education-education)
-- [Contact {#contact}](#contact-contact)
-
----
-
-## About Me {#about-me}
+## About Me
 
 <div style="text-align: center; margin-bottom: 30px;">
   <img src="/assets/photo.jpg" alt="Kaiyue Feng" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #ddd;">
 </div>
 
-Hello! I am an aspiring researcher passionate about exploring AI4Science, Reasoning, and multimodal LLMs. I am currently a Senior Undergraduate in Computer Science at NYU Shanghai, actively seeking PhD positions and opportunities to pursue original research and contribute to these rapidly evolving fields.
+Hello! I am an aspiring researcher passionate about exploring AI4Science, Reasoning, and multimodal LLMs. I am currently a Senior Undergraduate in Computer Science at NYU Shanghai, actively seeking opportunities to pursue original research and contribute to these rapidly evolving fields.
 
 **Research Interests:**
 - **AI4Science**: Applying artificial intelligence to accelerate scientific discovery and research processes
@@ -40,23 +23,23 @@ I am currently working with **Professor Chen Zhao** at NYU Shanghai on **RAG (Re
 
 ---
 
-## Research Experience {#research-experience}
+## Research Experience
 
-### Fact Verification on Multi-Step Reasoning Questions {#fact-verification-on-multi-step-reasoning-questions}
+### Fact Verification on Multi-Step Reasoning Questions
 * **Supervisor:** Professor Chen Zhao, **Institution:** NYU Shanghai
 * *Date: September 2023 – December 2024*
 
 This project focused on developing robust fact verification systems for complex multi-step reasoning questions, improving the accuracy and reliability of AI systems in handling intricate logical reasoning tasks.
 
 
-### RAG-Augmented Reasoning for Domain-Specific Multi-Modal QA {#rag-augmented-reasoning-for-domain-specific-multi-modal-qa}
+### RAG-Augmented Reasoning for Domain-Specific Multi-Modal QA
 * **Supervisor:** Professor Chen Zhao, **Institution:** NYU Shanghai
 * *Date: September 2024 – Present*
 
 This project focuses on developing advanced Retrieval-Augmented Generation (RAG) systems to improve question-answering capabilities across multiple modalities in domain-specific contexts.
 
   
-### AI4Physics Research: Reasoning and Evaluation in Physics Problem Solving {#ai4physics-research-reasoning-and-evaluation-in-physics-problem-solving}
+### AI4Physics Research: Reasoning and Evaluation in Physics Problem Solving
 * **Supervisor:** Professor Chen Zhao, Professor Arman Cohan, Professor John Sous, Yilun Zhao **Institution:** NYU Shanghai, Yale University
 * *Date: December 2024 – Present*
 
@@ -65,11 +48,11 @@ This collaborative project explores the application of artificial intelligence t
 
 ---
 
-## Publications {#publications}
+## Publications
 
 (*Note: Asterisk (\*) denotes co-first authorship.*)
 
-### Peer-reviewed Conference Papers {#peer-reviewed-conference-papers}
+### Peer-reviewed Conference Papers
 
 **"PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving"**
 
@@ -83,7 +66,7 @@ This collaborative project explores the application of artificial intelligence t
 
 ---
 
-## News & Updates {#news--updates}
+## News & Updates
 
 * **June 2025:** Our paper "PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving" was accepted at ACL 2025 (Findings)!
 * **May 2025:** Submitted a paper on RAG-Augmented Reasoning for Multi-Modal Question Answering to EMNLP 2025 (Under Review).
@@ -92,7 +75,7 @@ This collaborative project explores the application of artificial intelligence t
 
 ---
 
-## Education {#education}
+## Education
 
 **New York University Shanghai**  
 *Bachelor of Science in Computer Science*  
@@ -101,7 +84,7 @@ This collaborative project explores the application of artificial intelligence t
 
 ---
 
-## Contact {#contact}
+## Contact
 
 I welcome collaboration opportunities and discussions about research in AI4Science, Reasoning, and Multimodal LLMs. I'm also actively seeking PhD opportunities in top-tier programs. Feel free to reach out!
 
