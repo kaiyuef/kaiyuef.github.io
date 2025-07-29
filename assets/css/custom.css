@@ -1,49 +1,53 @@
 /* Custom styles for the website */
 
-/* Quick Links Styling */
-.quick-links {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
+/* Quick Navigation Styling */
+.quick-navigation {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
   padding: 20px;
-  margin: 20px 0;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-.quick-links h2 {
+.quick-navigation h2 {
   margin-top: 0;
-  color: #333;
-  border-bottom: 2px solid #007bff;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 1.3em;
+  border-bottom: 2px solid rgba(255,255,255,0.3);
   padding-bottom: 8px;
 }
 
-.quick-links ul {
+.quick-navigation ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
-.quick-links li {
-  margin-bottom: 12px;
+.quick-navigation li {
+  margin-bottom: 10px;
   padding: 8px 12px;
-  background: white;
+  background: rgba(255,255,255,0.1);
   border-radius: 6px;
-  border-left: 4px solid #007bff;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
+  border-left: 3px solid rgba(255,255,255,0.5);
 }
 
-.quick-links li:hover {
+.quick-navigation li:hover {
+  background: rgba(255,255,255,0.2);
   transform: translateX(5px);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.quick-links a {
-  color: #333;
+.quick-navigation a {
+  color: white;
   text-decoration: none;
   font-weight: 500;
 }
 
-.quick-links a:hover {
-  color: #007bff;
+.quick-navigation a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 /* Back to Home Link */

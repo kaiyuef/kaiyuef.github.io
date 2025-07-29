@@ -5,6 +5,15 @@ subtitle: Senior Undergraduate in Computer Science at NYU Shanghai
 bigimg: /assets/avatar.jpg
 ---
 
+<div class="quick-navigation">
+## Quick Navigation
+
+- **[Research Experience](research.md)** - Detailed research projects and collaborations
+- **[Publications](publications.md)** - Academic papers and publications
+</div>
+
+---
+
 ## About Me
 
 <div style="text-align: center; margin-bottom: 30px;">
@@ -42,15 +51,6 @@ I am currently working with **Professor Chen Zhao** at NYU Shanghai on **RAG (Re
 * **May 2025:** 📝 Submitted a paper on RAG-Augmented Reasoning for Multi-Modal Question Answering to EMNLP 2025 (Under Review).
 * **January 2025:** 🤝 Started collaboration with Yale NLP on AI4Physics research project.
 * **September 2024:** 🔬 Began research work with Professor Chen Zhao on RAG and QA systems at NYU Shanghai.
-
----
-
-<div class="quick-links">
-## Quick Links
-
-- **[Research Experience](research.md)** - Detailed research projects and collaborations
-- **[Publications](publications.md)** - Academic papers and publications
-</div>
 
 ---
 
