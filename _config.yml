@@ -2,12 +2,11 @@
 #   Basic Information   #
 # --------------------- #
 remote_theme: daattali/beautiful-jekyll@5.0.0
-title: Kaiyue Feng - Personal Homepage
+title: Kaiyue Feng
 author: Kaiyue Feng
 description: > # A short bio that appears in search results and under your site title.
-  Senior Undergraduate in Computer Science at NYU Shanghai
-  My research interests include AI4Science, Reasoning and multimodal LLMs.
-  Welcome to my personal website.
+  Senior Undergraduate in Computer Science at NYU Shanghai.
+  Research interests: AI4Science, Reasoning, and Multimodal LLMs.
 avatar: assets/avatar.jpg
 email: kf2365@nyu.edu
 location: Shanghai, China
@@ -17,72 +16,36 @@ baseurl: ""
 # --------------------- #
 #    Navigation Bar     #
 # --------------------- #
-# Most themes will use this list to build a navigation menu.
-navigation:
-  - title: Home
-    url: /
-  - title: Research
-    url: /research
-  - title: Publications
-    url: /publications
+navbar-links:
+  Home: ""
+  Research: "research"
+  Publications: "publications"
 
 # --------------------- #
 #     Social Links      #
 # --------------------- #
-# The format may vary by theme, but this is a common setup.
-github_username: kaiyuef
-linkedin_website: https://www.linkedin.com/in/kaiyue-feng-4480622b8/
-# google_scholar_id: [Your-Google-Scholar-ID]
-# twitter_username: [Your-Academic-Twitter-Username]
-# facebook_username: [Your-Facebook-Username]
-# youtube_username: [Your-YouTube-Username]
-# instagram_username: [Your-Instagram-Username]
-# snapchat_username: [Your-Snapchat-Username]
-# reddit_username: [Your-Reddit-Username]
-# tumblr_username: [Your-Tumblr-Username]
-# pinterest_username: [Your-Pinterest-Username]
-# telegram_username: [Your-Telegram-Username]
-# whatsapp_number: [Your-WhatsApp-Number]
-# wechat_id: [Your-WeChat-ID]
+social-network-links:
+  email: "kf2365@nyu.edu"
+  github: kaiyuef
+  linkedin: https://www.linkedin.com/in/kaiyue-feng-4480622b8/
 
 # --------------------- #
 #     Customization     #
 # --------------------- #
-# The following settings are optional.
-# You can customize the theme by changing these values.
-# For more details, please refer to the theme's documentation.
-
-# --------------------- #
-#     Pagination       #
-# --------------------- #
-# Set to false to disable pagination and show all posts on homepage
-paginate: false
-paginate_path: "/page/:num/"
+# Beautiful Jekyll specific settings
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
 
 # --------------------- #
 #     Theme Settings    #
 # --------------------- #
-# Beautiful Jekyll specific settings
-show_avatar: true
-show_social_links: true
-show_description: true
-show_related_posts: false
-show_share_buttons: true
-show_comments: false
-show_tags: true
-show_categories: true
-
-# Beautiful Jekyll theme options
-theme_color: "#2c3e50"
-theme_color_2: "#3498db"
-navbar_color: "#2c3e50"
-navbar_text_color: "#ffffff"
-navbar_hover_color: "#3498db"
-navbar_hover_text_color: "#ffffff"
-navbar_border_color: "#e7e7e7"
-navbar_border_width: "1px"
-navbar_border_style: "solid"
-navbar_border_radius: "0px"
+site-css: "/assets/css/custom.css"
 
 # --------------------- #
 #     Plugins          #
@@ -93,15 +56,8 @@ plugins:
   - jekyll-remote-theme
 
 # --------------------- #
-#     Custom CSS       #
-# --------------------- #
-custom_css:
-  - assets/css/custom.css
-
-# --------------------- #
 #     SEO Settings     #
 # --------------------- #
-# SEO settings for better search engine optimization
 lang: en-US
 timezone: Asia/Shanghai
 

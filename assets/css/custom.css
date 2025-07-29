@@ -1,30 +1,57 @@
-/* Beautiful Jekyll Custom Styles */
+/* Beautiful Jekyll Custom Styles - Matching Official Theme */
 
-/* Clean and minimal styling for Beautiful Jekyll theme */
+/* Override theme variables for consistency */
+:root {
+  --page-col: #FFFFFF;
+  --text-col: #404040;
+  --link-col: #008AFF;
+  --hover-col: #0085A1;
+  --navbar-col: #F5F5F5;
+  --navbar-text-col: #404040;
+  --navbar-border-col: #DDDDDD;
+  --footer-col: #F5F5F5;
+  --footer-text-col: #777777;
+  --footer-link-col: #404040;
+  --footer-hover-col: #0085A1;
+  --body-font: 'Lora', 'Times New Roman', serif;
+  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --mid-col: #808080;
+}
+
+/* Clean typography for Beautiful Jekyll theme */
 body {
-  font-family: var(--header-font);
-  line-height: 1.6;
+  font-family: var(--body-font);
+  font-size: 1.125rem;
+  line-height: 1.5;
   color: var(--text-col);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-font);
+  font-weight: 800;
+  line-height: 1.1;
 }
 
 /* Page headers */
 .page-header {
-  border-bottom: 2px solid var(--navbar-col);
+  border-bottom: 2px solid var(--navbar-border-col);
   margin-bottom: 30px;
   padding-bottom: 10px;
 }
 
 /* Section styling */
 h2 {
-  color: var(--navbar-col);
+  color: var(--text-col);
   border-bottom: 1px solid #ecf0f1;
   padding-bottom: 10px;
-  margin-top: 40px;
+  margin-top: 2.5rem;
+  font-size: 1.875rem;
 }
 
 h3 {
-  color: var(--navbar-text-col);
-  margin-top: 30px;
+  color: var(--text-col);
+  margin-top: 1.875rem;
+  font-size: 1.5rem;
 }
 
 /* Links styling */
@@ -33,7 +60,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover, a:focus {
   color: var(--hover-col);
   text-decoration: underline;
 }
@@ -44,47 +71,61 @@ a:hover {
   margin-top: 20px;
   padding: 8px 16px;
   background: var(--link-col);
-  color: white;
+  color: white !important;
   text-decoration: none;
   border-radius: 4px;
   transition: background 0.2s ease;
+  font-weight: 600;
 }
 
 .back-link:hover {
   background: var(--hover-col);
-  color: white;
+  color: white !important;
   text-decoration: none;
 }
 
 /* Research interests styling */
 .research-interests {
-  background: #f7fafc;
-  padding: 15px;
+  background: #f8f9fa;
+  padding: 20px;
   border-radius: 6px;
-  margin: 15px 0;
-  border-left: 4px solid #38a169;
+  margin: 20px 0;
+  border-left: 4px solid var(--link-col);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .research-interests h3 {
-  color: #2f855a;
+  color: var(--link-col);
   margin-top: 0;
+  margin-bottom: 15px;
 }
 
 /* News section */
 .news-item {
-  padding: 10px;
-  margin: 10px 0;
+  padding: 15px;
+  margin: 15px 0;
   background: var(--page-col);
   border-radius: 6px;
   border-left: 4px solid #f6ad55;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Avatar styling */
-.avatar {
+.avatar-img {
   border-radius: 50%;
   border: 3px solid var(--link-col);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.avatar-img:hover {
+  transform: scale(1.05);
+}
+
+/* Improve readability */
+p {
+  margin: 1.25rem 0;
+  line-height: 1.6;
 }
 
 /* Responsive design */
@@ -97,12 +138,24 @@ a:hover {
   .contact-info {
     padding: 15px;
   }
+  
+  body {
+    font-size: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
 }
 
 /* Custom Table of Contents Styles */
 .toc {
   background: #f8f9fa;
-  border: 1px solid #e9ecef;
+  border: 1px solid var(--navbar-border-col);
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 30px;
@@ -154,7 +207,7 @@ a:hover {
 .toc-link.active {
   color: var(--link-col);
   font-weight: bold;
-  background-color: rgba(0, 123, 255, 0.1);
+  background-color: rgba(0, 138, 255, 0.1);
   border-radius: 4px;
   padding: 2px 8px;
   margin: 0 -8px;
