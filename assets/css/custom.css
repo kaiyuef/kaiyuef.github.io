@@ -50,6 +50,11 @@
   text-decoration: none;
 }
 
+.quick-navigation strong {
+  color: white;
+  font-weight: 600;
+}
+
 /* Back to Home Link */
 .back-link {
   display: inline-block;

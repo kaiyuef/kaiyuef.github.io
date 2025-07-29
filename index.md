@@ -6,10 +6,12 @@ bigimg: /assets/avatar.jpg
 ---
 
 <div class="quick-navigation">
-## Quick Navigation
+<h2>Quick Navigation</h2>
 
-- **[Research Experience](research.md)** - Detailed research projects and collaborations
-- **[Publications](publications.md)** - Academic papers and publications
+<ul>
+<li><a href="research.md"><strong>Research Experience</strong></a> - Detailed research projects and collaborations</li>
+<li><a href="publications.md"><strong>Publications</strong></a> - Academic papers and publications</li>
+</ul>
 </div>
 
 ---
