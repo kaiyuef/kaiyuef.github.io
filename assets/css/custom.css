@@ -27,6 +27,22 @@ body {
   background-color: var(--page-col);
 }
 
+/* Make main content wider but not full-width */
+.container-md {
+  max-width: clamp(320px, 92vw, 1200px);
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Use full container width for main content columns (avoid bootstrap narrow offsets) */
+div[role="main"] .col-xl-8.offset-xl-2,
+div[role="main"] .col-lg-10.offset-lg-1 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--header-font);
   font-weight: 600;
@@ -367,7 +383,7 @@ ul, ol {
 /* Horizontal hero section (photo left, info right) */
 .hero-horizontal {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: auto 1fr;
   gap: 24px;
   align-items: center;
   margin-bottom: 24px;
@@ -379,8 +395,8 @@ ul, ol {
 }
 
 .hero-photo .avatar-img {
-  width: 180px;
-  height: 180px;
+  width: clamp(140px, 18vw, 200px);
+  height: clamp(140px, 18vw, 200px);
   object-fit: cover;
 }
 
@@ -394,8 +410,8 @@ ul, ol {
     text-align: center;
   }
   .hero-photo .avatar-img {
-    width: 150px;
-    height: 150px;
+    width: clamp(120px, 30vw, 160px);
+    height: clamp(120px, 30vw, 160px);
   }
 }
 
