@@ -16,7 +16,7 @@ subtitle: Academic Papers and Publications
 
 ---
 
-#### "SportReason: Evaluating Retrieval-Augmented Reasoning across Tables and Text for Sports Question Answering" *(Under Review)*
+#### "SportReason: Evaluating Retrieval-Augmented Reasoning across Tables and Text for Sports Question Answering" *(EMNLP2025)*
 *Kaiyue Feng\**, Siyue Zhang*, Bingsen Chen, Yilun Zhao, Chen Zhao*  
 
 
