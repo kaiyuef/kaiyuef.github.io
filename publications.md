@@ -10,17 +10,29 @@ subtitle: Academic Papers and Publications
 
 ### Peer-reviewed Conference Papers
 
-#### "PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving"
-*Kaiyue Feng\**, Yilun Zhao*, Yixin Liu, Tianyu Yang, Chen Zhao, John Sous, Arman Cohan*  
-*Accepted at ACL 2025 (Findings)*
+<div class="pub-list">
+  <div class="publication-card">
+    <div class="pub-title">"PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving"</div>
+    <div class="pub-authors">Kaiyue Feng\**, Yilun Zhao*, Yixin Liu, Tianyu Yang, Chen Zhao, John Sous, Arman Cohan</div>
+    <div class="pub-venue">ACL 2025</div>
+    <div class="pub-links">
+      <a class="pub-badge" href="#" aria-label="PDF">PDF</a>
+      <a class="pub-badge" href="#" aria-label="arXiv">arXiv</a>
+      <a class="pub-badge" href="#" aria-label="Code">Code</a>
+    </div>
+  </div>
 
----
-
-#### "SportReason: Evaluating Retrieval-Augmented Reasoning across Tables and Text for Sports Question Answering" *(EMNLP2025)*
-*Kaiyue Feng\**, Siyue Zhang*, Bingsen Chen, Yilun Zhao, Chen Zhao*  
-
-
----
+  <div class="publication-card">
+    <div class="pub-title">"SportReason: Evaluating Retrieval-Augmented Reasoning across Tables and Text for Sports Question Answering"</div>
+    <div class="pub-authors">Kaiyue Feng\**, Siyue Zhang*, Bingsen Chen, Yilun Zhao, Chen Zhao</div>
+    <div class="pub-venue">EMNLP 2025</div>
+    <div class="pub-links">
+      <a class="pub-badge" href="#" aria-label="PDF">PDF</a>
+      <a class="pub-badge" href="#" aria-label="arXiv">arXiv</a>
+      <a class="pub-badge" href="#" aria-label="Code">Code</a>
+    </div>
+  </div>
+</div>
 
 ## Research Areas
 
