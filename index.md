@@ -7,11 +7,14 @@ subtitle: Senior Undergraduate in Computer Science at NYU Shanghai
 <div class="hero-horizontal">
   <div class="hero-photo">
     <img src="/assets/photo.jpg" alt="Kaiyue Feng" class="avatar-img">
+    <ul class="contact-list">
+      <li><a href="mailto:kf2365@nyu.edu">kf2365@nyu.edu</a></li>
+      <li><a href="https://github.com/kaiyuef" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/kaiyue-feng-4480622b8/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li>Shanghai, China</li>
+    </ul>
   </div>
   <div class="hero-info">
-    <h2>Kaiyue Feng</h2>
-    <p class="profile-meta">CS Senior · NYU Shanghai</p>
-    <p><a href="mailto:kf2365@nyu.edu">kf2365@nyu.edu</a> · Shanghai, China</p>
     <div class="hero-actions">
       <a class="btn-minimal" href="/research">Research</a>
       <a class="btn-minimal" href="/publications">Publications</a>

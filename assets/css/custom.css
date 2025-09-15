@@ -383,20 +383,20 @@ ul, ol {
 /* Horizontal hero section (photo left, info right) */
 .hero-horizontal {
   display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 24px;
-  align-items: center;
+  grid-template-columns: 260px 1fr;
+  gap: 28px;
+  align-items: start;
   margin-bottom: 24px;
 }
 
 .hero-photo {
-  display: flex;
-  justify-content: center;
+  position: sticky;
+  top: 100px;
 }
 
 .hero-photo .avatar-img {
-  width: clamp(140px, 18vw, 200px);
-  height: clamp(140px, 18vw, 200px);
+  width: clamp(180px, 20vw, 260px);
+  height: clamp(180px, 20vw, 260px);
   object-fit: cover;
 }
 
@@ -407,11 +407,10 @@ ul, ol {
 @media (max-width: 768px) {
   .hero-horizontal {
     grid-template-columns: 1fr;
-    text-align: center;
   }
   .hero-photo .avatar-img {
-    width: clamp(120px, 30vw, 160px);
-    height: clamp(120px, 30vw, 160px);
+    width: clamp(140px, 35vw, 200px);
+    height: clamp(140px, 35vw, 200px);
   }
 }
 
