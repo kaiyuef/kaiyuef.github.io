@@ -29,7 +29,7 @@ body {
 
 /* Make main content wider but not full-width */
 .container-md {
-  max-width: clamp(320px, 92vw, 1200px);
+  max-width: clamp(320px, 92vw, 3840px);
   padding-left: 16px;
   padding-right: 16px;
 }
