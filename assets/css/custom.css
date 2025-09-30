@@ -286,6 +286,11 @@ p {
   margin-bottom: 4px;
 }
 
+.publication-card .pub-author-highlight {
+  color: var(--link-col);
+  font-weight: 600;
+}
+
 .publication-card .pub-venue {
   color: var(--text-col);
   font-size: 0.95rem;
@@ -383,10 +388,12 @@ ul, ol {
 /* Horizontal hero section (photo left, info right) */
 .hero-horizontal {
   display: grid;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: minmax(200px, 260px) minmax(320px, 520px);
   gap: 28px;
   align-items: start;
-  margin-bottom: 24px;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto 24px;
 }
 
 .hero-photo {
@@ -407,11 +414,14 @@ ul, ol {
 .hero-condensed .hero-info {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 12px;
 }
 
 .hero-info {
-  max-width: 640px;
+  max-width: 520px;
+  justify-self: center;
+  text-align: center;
 }
 
 .hero-subtitle {
@@ -464,6 +474,7 @@ ul, ol {
 @media (max-width: 768px) {
   .hero-horizontal {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
   .hero-condensed .hero-info {
     gap: 10px;
