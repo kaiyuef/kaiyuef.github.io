@@ -58,10 +58,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 # --------------------- #
 #     SEO Settings     #
 # --------------------- #
 lang: en-US
 timezone: Asia/Shanghai
-
