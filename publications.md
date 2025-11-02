@@ -12,6 +12,17 @@ subtitle: Academic Papers and Publications
 
 <div class="pub-list">
   <div class="publication-card">
+    <div class="pub-title">"AlphaResearch: Accelerating New Algorithm Discovery with Language Models"</div>
+    <div class="pub-authors">Zhaojian Yu*, <span class="pub-author-highlight">Kaiyue Feng*</span>, Yilun Zhao, Shilin He, Xiao-Ping Zhang, Arman Cohan</div>
+    <div class="pub-venue">Preprint, 2025</div>
+    <div class="pub-links">
+      <a class="pub-badge" href="#" aria-label="PDF">PDF</a>
+      <a class="pub-badge" href="#" aria-label="arXiv">arXiv</a>
+      <a class="pub-badge" href="#" aria-label="Code">Code</a>
+    </div>
+  </div>
+
+  <div class="publication-card">
     <div class="pub-title">"PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving"</div>
     <div class="pub-authors"><span class="pub-author-highlight">Kaiyue Feng*</span>, Yilun Zhao*, Yixin Liu, Tianyu Yang, Chen Zhao, John Sous, Arman Cohan</div>
     <div class="pub-venue">ACL 2025</div>
@@ -25,7 +36,7 @@ subtitle: Academic Papers and Publications
   <div class="publication-card">
     <div class="pub-title">"SportReason: Evaluating Retrieval-Augmented Reasoning across Tables and Text for Sports Question Answering"</div>
     <div class="pub-authors"><span class="pub-author-highlight">Kaiyue Feng*</span>, Siyue Zhang*, Bingsen Chen, Yilun Zhao, Chen Zhao</div>
-    <div class="pub-venue">EMNLP 2025</div>
+    <div class="pub-venue">EMNLP 2025 (Main Conference)</div>
     <div class="pub-links">
       <a class="pub-badge" href="#" aria-label="PDF">PDF</a>
       <a class="pub-badge" href="#" aria-label="arXiv">arXiv</a>
@@ -37,6 +48,7 @@ subtitle: Academic Papers and Publications
 ## Research Areas
 
 - **AI4Science**: Physics problem solving, scientific reasoning
+- **Autonomous Research Agents**: AI-driven algorithm discovery and evaluation
 - **Multi-Modal AI**: Question answering across text and visual modalities
 - **Reasoning Systems**: Logical reasoning and fact verification
 - **Retrieval-Augmented Generation**: Context-aware AI systems
@@ -44,4 +56,4 @@ subtitle: Academic Papers and Publications
 
 ---
 
-<a href="/" class="back-link">← Back to Home</a> 
+<a href="/" class="back-link">← Back to Home</a>

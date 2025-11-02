@@ -10,7 +10,7 @@ subtitle: Senior Undergraduate in Computer Science at NYU Shanghai
   </div>
   <div class="hero-info">
     <p class="hero-subtitle">Senior Undergraduate · NYU Shanghai Computer Science</p>
-    <p class="hero-blurb">I build retrieval-augmented and multimodal systems that evaluate how reliably models reason about scientific problems.</p>
+    <p class="hero-blurb">I explore retrieval-augmented and multimodal strategies that help language models reason reliably about scientific domains.</p>
     <div class="hero-tags">
       <span class="hero-tag">AI4Science</span>
       <span class="hero-tag">Reasoning</span>
@@ -33,18 +33,18 @@ subtitle: Senior Undergraduate in Computer Science at NYU Shanghai
 <main class="info-grid">
   <section class="info-card">
     <h2>Current Work</h2>
-    <p>I collaborate with NYU Shanghai and Yale NLP on AI4Physics, building evaluations for foundation models solving university-level physics and designing benchmarks for multimodal QA.</p>
+    <p>I am interested in how large models reason about science, how retrieval augments their understanding, and how evaluation frameworks can surface failure modes.</p>
     <ul class="plain-list">
-      <li>Designing retrieval-augmented workflows for scientific reasoning</li>
-      <li>Studying how LLMs break down multi-step physics problems</li>
+      <li>Designing retrieval-augmented workflows for transparent problem solving</li>
+      <li>Studying model behavior on multi-step scientific and quantitative tasks</li>
     </ul>
   </section>
 
   <section class="info-card">
     <h2>Recent Highlights</h2>
     <ul class="news-list">
+      <li><span>August 2025</span> — SportReason accepted to EMNLP 2025 (Main Conference)</li>
       <li><span>June 2025</span> — PHYSICS accepted to ACL 2025 (Findings)</li>
-      <li><span>May 2025</span> — Submitted SportReason (multimodal RAG) to EMNLP 2025</li>
       <li><span>January 2025</span> — Began Yale NLP collaboration on AI4Physics</li>
     </ul>
   </section>

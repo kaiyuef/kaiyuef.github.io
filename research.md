@@ -20,6 +20,8 @@ This project builds a **Chinese-language, LLM-driven medical intake assistant** 
 - Implemented an **automated question reviewer** leveraging checklist indices for intent validation, MECE option coverage, step ordering, and structured feedback parsing.
 - Enforced **safety & governance controls**: database-prioritized responses, search transparency, diagnosis/medication timing limits, input sanitization, and reasoning-vs-patient output separation.
 
+---
+
 ### AI4Research
 **Supervisor:** Professor Arman Cohan, Yilun Zhao
 **Institution:** NYU Shanghai, Yale University  
@@ -32,6 +34,8 @@ This project introduces an **autonomous agent** that discovers new algorithms vi
 - Built the **AlphaResearch-RM-7B reward model** trained on 24K ICLR peer-review records, enabling real-world “review-style” evaluation of generated research ideas.
 - Constructed **AlphaResearchComp**, a benchmark of 8 open-ended algorithmic discovery tasks with reproducible evaluation pipelines.
 - Demonstrated **superhuman algorithm discovery** on 2/8 tasks (e.g., packing circles), surpassing best-known human and AlphaEvolve baselines.
+
+---
 
 ### AI4Physics Research: Reasoning and Evaluation in Physics Problem Solving
 **Supervisor:** Professor Chen Zhao, Professor Arman Cohan, Professor John Sous, Yilun Zhao  
